@@ -120,7 +120,6 @@ interval:
 api:
   on_client_connected:
       - delay: 1s
-      - light.turn_off: rgb_light
       - lambda: 'id(cycleCounter) = 30;'    
   services:
     #Co2 Calibration Service
