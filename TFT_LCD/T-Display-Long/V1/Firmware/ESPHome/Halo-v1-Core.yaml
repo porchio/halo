@@ -186,7 +186,7 @@ image:
     id: ym_logo
     resize: 25x25
     type: RGB565
-    use_transparency: true
+    transparency: true
 
 color:
   - id: my_red
